@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body bgcolor="5f5f5f">
+  <h1>인풋 요소 공통(대부분) 속성</h1>
+  <form action="#">
+    <label for="1_val">value: </label>
+    <input id="1_val" type="text" value="지정됨">
+  </form>
+  <br>
+  <label for="1_au">autofocus: </label>
+    <input id="1_au" type="text" placeholder="자동포커스됨" autofocus>
+    <br><br>
+    <label for="1_re">readonly: </label>
+      <input id="1_re" type="text" value="읽기만 가능, 전송됨" readonly >
+<br><br>
+    <label for="1_di">disabled: </label>
+      <input id="1_di" type="text" disabled>
+<br><br>
+    <label for="1_re">required: </label>
+      <input id="1_re" type="text" placeholder="필수입력" required>
+      <br><br>
+    
+      <input type="radio" name="fruit" id="v_apple" value="apple" >
+      <label for="f_apple"></label>사과</label>
+      
+      <input type="radio" name="fruit" id="v_graph" value="graph" >
+      <label for="f_graph"></label>포도</label>
+      <input type="radio" name="fruit" id="v_orange" value="orange" disabled>
+      <label for="f_orange"></label>오렌지(품절)</label>
+      <br><br>
+      <button type="submit">제출</button>
+</body>
+</html>
